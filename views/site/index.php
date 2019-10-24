@@ -1,5 +1,5 @@
 <?php
-
+use yii\helpers\Html;
 /* @var $this yii\web\View */
 
 $this->title = 'My Yii Application';
@@ -7,7 +7,11 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h1><?= Html::encode($model->example);  ?></h1>
+        <h2><?= var_dump(Yii::$app->request->absoluteUrl); ?></h2>
+        <h2><?= var_dump($model->workings); ?></h2>
+        <h2><? echo($model->country->name); ?></h2>
+
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
