@@ -76,12 +76,12 @@ class SiteController extends Controller
         ]);
     }
 
-    /**
-     * Login action.
-     *
-     * @return Response|string
-     */
-    public function actionLogin()
+    /**"
+         * Login action.
+         *
+         * @return Response|string
+         */
+    "    public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
