@@ -1,3 +1,6 @@
+
+
+
 html,
 body {
     height: 100%;
@@ -113,3 +116,32 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+
+    body{
+      background: DodgerBlue;
+    }
+    .d1{
+      background: LimeGreen;
+    }
+    .d2{
+      width: 55%; 
+      float: left;
+      font-size: 25pt; /* Размер шрифта в пунктах */ 
+    }
+    .d21{
+      width: 100%;
+      background: Goldenrod;
+    }
+    .d22{
+      background: LightSkyBlue;
+    }
+    .d1, .d22{
+      width: 55%;
+      font-size: 100pt; /* Размер шрифта в пунктах */ 
+      float: left;
+    }
+    .d23{
+      font-size: 20pt;
+      width: 40%;
+    }
